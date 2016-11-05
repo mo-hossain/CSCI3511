@@ -1,0 +1,12 @@
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+ Serial.print('-');
+ Serial.print("Connection All Good!");
+ Serial.print('=');
+ Serial.println();
+ 
+ delay(2000);
+}
